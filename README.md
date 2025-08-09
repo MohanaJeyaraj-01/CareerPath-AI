@@ -1,4 +1,4 @@
-🧠 AI-Driven Career Guidance Platform
+# Career Path AI
 An AI-powered career guidance web app that helps students explore suitable career paths based on their skills, interests, and regional job trends.
 
 🛠️ Built for Prayatna’25 Hackathon – PrayACThon
@@ -18,7 +18,7 @@ Region-specific job suggestions
 
 A personalized career dashboard
 
-Built with Open API or  OpenRouter API to power the AI engine.
+Built with OpenAI API or OpenRouter API to power the AI engine.
 
 📌 Key Features
 🤖 AI Chatbot – Career assistant powered by Gemini AI or OpenRouter
