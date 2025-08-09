@@ -24,7 +24,7 @@ An AI-powered career guidance web app that helps students explore suitable caree
 
 🧱 Project Structure
 
-carrier-ai/
+career-ai/
 
 ├── client/           # React frontend
 
