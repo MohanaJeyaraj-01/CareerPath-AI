@@ -7,22 +7,6 @@ An AI-powered career guidance web app that helps students explore suitable caree
 
 👩‍💻 Team Members: Mohana, Amsa, Suganthi, Parthasarathi
 
-🚀 Project Overview
-
-This platform helps students make smarter career choices using:
-
-->AI-powered chatbot for career advice
-
-->A dynamic questionnaire
-
-->Skill-based mini-games
-
-->Region-specific job suggestions
-
-->A personalized career dashboard
-
-->Built with OpenAI API or OpenRouter API to power the AI engine.
-
 📌 Key Features
 
 🤖 AI Chatbot – Career assistant powered by Open AI or OpenRouter
@@ -36,6 +20,7 @@ This platform helps students make smarter career choices using:
 🌍 Region Jobs – Filters jobs by location
 
 📁 Jobs Data – Uses a static jobs.json dataset, with potential for real-time API integration
+
 
 🧱 Project Structure
 
