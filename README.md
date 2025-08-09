@@ -111,7 +111,8 @@ node index.js
 ### Create a .env file inside server/ and add:
 
 
-API_KEY=your_gemini_or_openrouter_api_key
+API_KEY=openrouter_api_key
+OPENROUTER_API_KEY=your_real_openrouter_api_key_here
 
 ---
 ### ✨ Key Takeaways
