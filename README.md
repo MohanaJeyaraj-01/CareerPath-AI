@@ -2,26 +2,29 @@
 An AI-powered career guidance web app that helps students explore suitable career paths based on their skills, interests, and regional job trends.
 
 🛠️ Built for Prayatna’25 Hackathon – PrayACThon
+
 👥 Team: Digital Dynamo
+
 👩‍💻 Team Members: Mohana, Amsa, Suganthi, Parthasarathi
 
 🚀 Project Overview
-This platform helps students make smarter career choices using:
+->This platform helps students make smarter career choices using:
 
-AI-powered chatbot for career advice
+->AI-powered chatbot for career advice
 
-A dynamic questionnaire
+->A dynamic questionnaire
 
-Skill-based mini-games
+->Skill-based mini-games
 
-Region-specific job suggestions
+->Region-specific job suggestions
 
-A personalized career dashboard
+->A personalized career dashboard
 
-Built with OpenAI API or OpenRouter API to power the AI engine.
+->Built with OpenAI API or OpenRouter API to power the AI engine.
 
 📌 Key Features
-🤖 AI Chatbot – Career assistant powered by Gemini AI or OpenRouter
+
+🤖 AI Chatbot – Career assistant powered by Open AI or OpenRouter
 
 🧠 Questionnaire – Understands user interests and preferences
 
@@ -34,23 +37,32 @@ Built with OpenAI API or OpenRouter API to power the AI engine.
 📁 Jobs Data – Uses a static jobs.json dataset, with potential for real-time API integration
 
 🧱 Project Structure
-bash
-Copy
-Edit
+
 carrier-ai/
+
 ├── client/           # React frontend
+
 │   ├── src/components/
+
 │   ├── src/data/jobs.json
+
 │   └── App.js
+
 ├── server/           # Express backend
+
 │   ├── index.js
+
 │   └── .env (not pushed)
+
 └── README.md         # This file
+
 ⚙️ Tech Stack
+
 🌐 Frontend (client/)
+
 React.js
 
-Gemini AI / OpenRouter API
+Open AI / OpenRouter API
 
 CSS Modules
 
@@ -59,6 +71,7 @@ Axios (for HTTP requests)
 Chart.js (or similar for visualizations)
 
 🔧 Backend (server/)
+
 Node.js + Express
 
 CORS
@@ -70,6 +83,7 @@ body-parser
 Static job dataset (extendable to a database)
 
 🔁 Data Flow
+
 User enters via the React interface
 
 Chatbot or questionnaire collects input
@@ -83,29 +97,34 @@ Backend returns job matches from jobs.json or other sources
 Dashboard and Region Jobs display results
 
 🧪 How to Run Locally
+
 🔹 Step 1: Setup Frontend
-bash
-Copy
-Edit
+
+
 cd client
+
 npm install
+
 npm start
+
 # App runs at http://localhost:3000
 🔹 Step 2: Setup Backend
-bash
-Copy
-Edit
+
 cd ../server
+
 npm install
+
 node index.js
 # Server runs at http://localhost:5000
+
 🔹 Step 3: Create a .env file inside server/ and add:
-ini
-Copy
-Edit
-API_KEY=openrouter_api_key
+
+API_KEY=your_open_api_key
+
 OPENROUTER_API_KEY=your_real_openrouter_api_key_here
+
 ✨ Key Highlights
+
 Personalized, AI-powered career advice
 
 Local job filtering
@@ -115,6 +134,7 @@ Built-in skill assessment modules
 Modular and scalable architecture
 
 📈 Future Enhancements
+
 Integrate real-time job APIs
 
 Add user authentication
@@ -124,4 +144,5 @@ Enhance the recommendation engine with ML
 Deploy to cloud platforms (Netlify/Vercel + Render)
 
 🙏 Acknowledgements
+
 This is a step toward helping students make smarter career choices with technology.
