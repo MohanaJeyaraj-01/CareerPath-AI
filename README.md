@@ -8,7 +8,8 @@ An AI-powered career guidance web app that helps students explore suitable caree
 👩‍💻 Team Members: Mohana, Amsa, Suganthi, Parthasarathi
 
 🚀 Project Overview
-->This platform helps students make smarter career choices using:
+
+This platform helps students make smarter career choices using:
 
 ->AI-powered chatbot for career advice
 
